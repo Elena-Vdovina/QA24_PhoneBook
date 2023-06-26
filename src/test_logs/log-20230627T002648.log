@@ -1,0 +1,12 @@
+625  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\vdovi\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2485 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactNegativeFromCsvFileTest with data: [Contact{name='Oliver', phone='123456789', email='kan@gm.com'}]
+15617 [main] INFO  com.phonebook.tests.TestBase -- PASSED: addContactNegativeFromCsvFileTest
+15617 [main] INFO  com.phonebook.tests.TestBase -- ================================================================
+15617 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactNegativeFromCsvFileTest with data: [Contact{name='Oliver', phone='1234556789012356', email='kan@gm.com'}]
+37836 [main] INFO  com.phonebook.tests.TestBase -- PASSED: addContactNegativeFromCsvFileTest
+37836 [main] INFO  com.phonebook.tests.TestBase -- ================================================================
+37836 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactNegativeFromCsvFileTest with data: [Contact{name='Oliver', phone='1234567890', email='kangm.com'}]
+60026 [main] INFO  com.phonebook.tests.TestBase -- PASSED: addContactNegativeFromCsvFileTest
+60026 [main] INFO  com.phonebook.tests.TestBase -- ================================================================
