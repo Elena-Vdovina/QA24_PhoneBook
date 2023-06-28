@@ -1,5 +1,7 @@
-package com.phonebook.tests;
+package com.phonebook.fw;
 
+import com.phonebook.fw.BaseHelper;
+import com.phonebook.model.Contact;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,7 +25,7 @@ public class ContactHelper extends BaseHelper {
     type(By.cssSelector("input:nth-child(4)"),
         contact.getEmail()); //"Ivanov@gmail.com"); //"Ivanov + i @gmail.com"
     type(By.cssSelector("input:nth-child(5)"), contact.getAdress()); //"Ivanovo");
-    type(By.cssSelector("input:nth-child(6)"), contact.getAdress()); //"goalkeeper");
+    type(By.cssSelector("input:nth-child(6)"), contact.getDesc()); //"goalkeeper");
   }
 
   public void clickOnAddLink() {
@@ -51,4 +53,14 @@ public class ContactHelper extends BaseHelper {
     return driver.findElements(By.cssSelector(".contact-item_card__2SOIM")).isEmpty();
   }
 
+  public int sizeOfContacts() {
+    if (isElementPresent(By.cssSelector(".contact-item_card__2SOIM"))){
+      return driver.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();
+    }
+    return 0;
+  }
+
+  public void closeAddForm(){
+    click(By.xpath("//a[.='CONTACTS']"));
+  }
 }
