@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.phonebook.tests.HomePageTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-28T16:27:22" hostname="WINDOWS-HP" time="0.028">
+  <properties/>
+  <testcase name="openHomeTest" classname="com.phonebook.tests.HomePageTests" time="0.028"/>
+  <system-out><![CDATA[18:27:22.685 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test openHomeTest with data: []
+18:27:22.718 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: openHomeTest
+18:27:22.718 [Test worker] INFO  com.phonebook.tests.TestBase -- ================================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
